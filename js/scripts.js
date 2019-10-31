@@ -83,7 +83,6 @@ function crypto(str) {
 
 function getCrypto() {
   var functionNumber = Math.round(Math.random());
-
   if (functionNumber === 0) {
     tails++;
     return crypto2;
